@@ -10,7 +10,7 @@ Customize the Cache Directory (default `_site/img/generated/`) in:
 
 ## Benchmarks:
 
-AVIF and PNG formats, at a 40px width.
+222 source images, outputs AVIF and PNG formats at 40px width.
 
 ### Local
 
