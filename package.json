@@ -8,7 +8,11 @@
     "start": "npx @11ty/eleventy --formats=liquid --serve"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Zach Leatherman",
+    "email": "zachleatherman@gmail.com",
+    "url": "https://zachleat.com/"
+  },
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
