@@ -1,2 +1,5 @@
 [[plugins]]
-	package = "./plugins/custom-cache"
+package = "netlify-plugin-cache"
+
+  [plugins.inputs]
+  paths = ["_site/img/generated"]
