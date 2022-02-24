@@ -13,7 +13,9 @@ async function imageHtml(src, alt) {
 
   return Image.generateHTML(stats, {
     alt: alt,
-    sizes: "2.5em"
+    sizes: "2.5em",
+    decoding: "async",
+    loading="lazy",
   });
 }
 
