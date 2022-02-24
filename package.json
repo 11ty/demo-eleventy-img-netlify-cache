@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx @11ty/eleventy --formats=liquid"
+    "build": "npx @11ty/eleventy --formats=liquid",
+    "start": "npx @11ty/eleventy --formats=liquid --serve"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-img": "^1.0.0",

@@ -7,7 +7,8 @@ async function imageHtml(src, alt) {
   let stats = await Image(imgSrc, {
     widths: [40],
     formats: ["avif", "png"],
-    outputDir: "./_site/img/generated/"
+    urlPath: "/img/generated",
+    outputDir: "./_site/img/generated/",
   });
 
   return Image.generateHTML(stats, {

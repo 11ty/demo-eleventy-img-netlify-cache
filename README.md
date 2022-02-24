@@ -27,7 +27,8 @@ Warm start:
 Cold start:
 
 ```
-
+[11ty] Writing _site/index.html from ./index.liquid
+[11ty] Wrote 1 file in 27.59 seconds (v1.0.0)
 ```
 
 Warm start:
