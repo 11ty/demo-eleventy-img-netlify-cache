@@ -1,0 +1,18 @@
+{
+  "name": "demo-eleventy-img-netlify-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy --formats=liquid"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-img": "^1.0.0",
+    "browser-logos": "github:alrra/browser-logos#71.0.0",
+    "fast-glob": "^3.2.11"
+  }
+}
