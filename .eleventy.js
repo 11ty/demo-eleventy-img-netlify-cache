@@ -15,7 +15,7 @@ async function imageHtml(src, alt) {
     alt: alt,
     sizes: "2.5em",
     decoding: "async",
-    loading="lazy",
+    loading: "lazy",
   });
 }
 
