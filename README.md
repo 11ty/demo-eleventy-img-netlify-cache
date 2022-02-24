@@ -5,7 +5,8 @@
 This repository takes all of the [high resolution browser logos](https://github.com/alrra/browser-logos) and processes them through Eleventy Image, writing output images directly to the Eleventy output directory at `_site/img/generated/`.
 
 Customize the Cache Directory (default `_site/img/generated/`) in:
-1. [`plugins/custom-cache/index.js`](https://github.com/11ty/demo-eleventy-img-netlify-cache/blob/main/plugins/custom-cache/index.js) (also `ttl`: how long these images are kept)
+1. [`plugins/custom-cache/index.js`](https://github.com/11ty/demo-eleventy-img-netlify-cache/blob/main/plugins/custom-cache/index.js)
+    * Also `ttl`: how long these images are kept.
 1. [`.eleventy.js`](https://github.com/11ty/demo-eleventy-img-netlify-cache/blob/main/.eleventy.js)
 
 ## Benchmarks:
