@@ -7,6 +7,10 @@
 		<title></title>
 	</head>
 	<body>
+		<h1>Re-use Eleventy Image Disk Cache across Netlify Builds</h1>
+		<ul>
+			<li><a href="https://github.com/11ty/demo-eleventy-img-netlify-cache">Back to the GitHub Repo <code>11ty/demo-eleventy-img-netlify-cache</code></a></li>
+		</ul>
 		{%- for entry in logos %}
 		{% getImageHtml entry.path, entry.alt %}
 		{%- endfor %}
