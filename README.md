@@ -1,5 +1,7 @@
 # Re-use Eleventy Image Disk Cache across Netlify Builds
 
+* [Live Demo](https://demo-eleventy-img-netlify-cache.netlify.app/)
+
 This repository takes all of the [high resolution browser logos](https://github.com/alrra/browser-logos) and processes them through Eleventy Image, writing directly to the Eleventy output directory at `_site/img/generated/`.
 
 ## Benchmarks:
